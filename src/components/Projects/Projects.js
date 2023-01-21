@@ -25,29 +25,47 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Tourism in india"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              link="https://github.com/AmitRanjan235/Tourism-in-india"
+              title="Dogs breed classification"
+              description="dog breed classification using pretrained convolutional neural network (often abbreviated as CNN) using three different architectures AlexNet, VGG, and ResNet and comparing them to get best possible CNN architecture.In this project all architecture 100% correctly classifies the animal is dog or not and other accuracy are following:* Statistics from calculates_results_stats() function: N Images: 40 N Dog Images: 30 N NotDog Images: 10 Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0 Pct Corr Breed: 93.3
+
+              ** Check Statistics - calculated from this function as a check: N Images: 40 N Dog Images: 30 N NotDog Images: 10 Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0 Pct Corr Breed: 93.3
+              
+              *** Results Summary for CNN Model Architecture VGG *** N Images : 40 N Dog Images : 30 N Not-Dog Images: 10
+              
+              pct_match: 87.5 pct_correct_dogs: 100.0 pct_correct_breed: 93.33333333333333 pct_correct_notdogs: 100.0
+              
+              INCORRECT Dog Breed Assignment: Real: great_pyrenees Classifier: kuvasz Real: beagle Classifier: walker_hound,_walker_foxhound
+              
+              ** Total Elapsed Runtime: 0:0:32"
+              link="https://github.com/AmitRanjan235/Dog_breed_classification"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={editor}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              link="https://github.com/AmitRanjan235/Web_tech_Html"
+              title="ImageClassifier for Flower"
+              description="Developing an command line AI application and notebook to train an image classifier to recognize different species of flowers and got accuracy approx 91%"
+              link="https://github.com/AmitRanjan235/ImageClassifier_Udacity_project"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="wafer fault detection"
+              description='build a classification methodology to predict the quality of wafer sensors based on the given training data.The client will send data in multiple sets of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for each wafer. The last column will have the "Good/Bad" value for each wafer.
+
+              "Good/Bad" column will have two unique values +1 and -1.
+              
+              "+1" represents Bad wafer.
+              
+              "-1" represents Good Wafer.
+              
+              Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:'
+              link="https://github.com/AmitRanjan235/Wafer_fault_detection"
             />
           </Col>
 
@@ -55,9 +73,12 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="tourism in india"
+              description="We are the group of developers that provide the solution of ease of accessing of tourist places.The home page shows the beautiful interface of top visiting of India with region and a beautiful video which shows the amazing beauty of India.
+              
+              It also contain the Hotel section which help tourist to find a room at very low price with best features.It provide the user login and register page through which they can easily book a hotel room with required facilities.
+              "
+              link="https://github.com/AmitRanjan235/Tourism-in-india"
             />
           </Col>
 
@@ -65,9 +86,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="meditation-scheduler"
+              description="scheduling the meditation time and storing in the database using mysql"
+              link="https://github.com/AmitRanjan235/meditation-scheduler"
             />
           </Col>
 
@@ -78,9 +99,9 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              link="https://github.com/AmitRanjan235/emotion_detection"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
