@@ -86,9 +86,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="meditation-scheduler"
-              description="scheduling the meditation time and storing in the database using mysql"
-              link="https://github.com/AmitRanjan235/meditation-scheduler"
+              title="Warehouse Apparel Detection Web App using YOLOv5"
+              description="This web application uses the YOLOv5 deep learning model to detect apparel from an image uploaded by the user. The detected objects are then highlighted with bounding boxes and labeled with the predicted class."
+              link="https://github.com/AmitRanjan235/Yolov5_Warehouse_apparel_detection_webApp"
             />
           </Col>
 
