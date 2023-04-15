@@ -44,8 +44,15 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="ImageClassifier for Flower"
-              description="Developing an command line AI application and notebook to train an image classifier to recognize different species of flowers and got accuracy approx 91%"
+              title="Flower Species Image Classifier Project"
+              description={<ul>
+                <li>Developed an image classifier for flower species with 102 different categories as a part of Udacity AI Programming with Python Nanodegree Program.</li>
+                <li>Utilized PyTorch to train the deep learning model on a dataset of flower images, implementing data augmentation, normalization, and batching.</li>
+                <li>Loaded and froze a pre-trained VGG16 network from torchvision.models, and defined a feedforward classifier as its input to train on the flower image dataset.</li>
+                <li>Trained the feedforward classifier with appropriate hyperparameters, and displayed validation loss and accuracy during training, with testing accuracy measured on the test data.</li>
+                <li>Saved the trained model as a checkpoint with associated hyperparameters and class_to_idx dictionary, with a function to load the checkpoint and rebuild the model.</li>
+                <li>Implemented a command-line interface to allow users to train the model with different architectures and hyperparameters, and predict flower species with associated probabilities and class names using the trained model.</li>
+                </ul>}
               link="https://github.com/AmitRanjan235/ImageClassifier_Udacity_project"
             />
           </Col>
