@@ -21,25 +21,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Dogs breed classification"
-              description="dog breed classification using pretrained convolutional neural network (often abbreviated as CNN) using three different architectures AlexNet, VGG, and ResNet and comparing them to get best possible CNN architecture.In this project all architecture 100% correctly classifies the animal is dog or not and other accuracy are following:* Statistics from calculates_results_stats() function: N Images: 40 N Dog Images: 30 N NotDog Images: 10 Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0 Pct Corr Breed: 93.3
-
-              ** Check Statistics - calculated from this function as a check: N Images: 40 N Dog Images: 30 N NotDog Images: 10 Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0 Pct Corr Breed: 93.3
-              
-              *** Results Summary for CNN Model Architecture VGG *** N Images : 40 N Dog Images : 30 N Not-Dog Images: 10
-              
-              pct_match: 87.5 pct_correct_dogs: 100.0 pct_correct_breed: 93.33333333333333 pct_correct_notdogs: 100.0
-              
-              INCORRECT Dog Breed Assignment: Real: great_pyrenees Classifier: kuvasz Real: beagle Classifier: walker_hound,_walker_foxhound
-              
-              ** Total Elapsed Runtime: 0:0:32"
-              link="https://github.com/AmitRanjan235/Dog_breed_classification"
-            />
-          </Col>
+        <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={chatify}
+          isBlog={false}
+          title="Dogs breed classification"
+          description={
+            <ul>
+              <li>Implemented a dog breed classification model using pre-trained convolutional neural networks (CNN) in Python.</li>
+              <li>Used three different architectures - AlexNet, VGG, and ResNet - to compare and find the best possible CNN architecture for the given dataset.</li>
+              <li>Achieved 100% accuracy in classifying whether the animal is a dog or not using all three architectures.</li>
+              <li>Obtained a 93.3% accuracy in correctly classifying the breed of dogs using the VGG architecture.</li>
+              <li>Calculated and checked the statistics using the calculates_results_stats() function to ensure the accuracy of the model.</li>
+              <li>Identified and reported the incorrect dog breed assignments made by the model for further improvement.</li>
+            </ul>
+          }
+          link="https://github.com/AmitRanjan235/Dog_breed_classification"
+        />
+      </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
