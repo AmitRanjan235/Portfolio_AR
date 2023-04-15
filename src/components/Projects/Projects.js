@@ -93,7 +93,14 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Warehouse Apparel Detection Web App using YOLOv5"
-              description="This web application uses the YOLOv5 deep learning model to detect apparel from an image uploaded by the user. The detected objects are then highlighted with bounding boxes and labeled with the predicted class."
+              description={<ul>
+                <li>Developed a web application for apparel detection using YOLOv5 object detection model.</li>
+                <li>Utilized Python and PyTorch to implement the YOLOv5 model and Flask to build the web application and serve the model predictions.</li>
+                <li>Implemented functionality to upload images, detect apparel, and display the results with bounding boxes and class labels.</li>
+                <li>Customized the web application by modifying Flask application code, detector code, and HTML interface code.</li>
+                <li>Built with Python, PyTorch, Flask, and YOLOv5 object detection model.</li>
+                <li>Licensed under the MIT License.</li>
+                </ul>}
               link="https://github.com/AmitRanjan235/Yolov5_Warehouse_apparel_detection_webApp"
             />
           </Col>
