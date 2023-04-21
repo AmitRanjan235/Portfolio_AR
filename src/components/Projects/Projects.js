@@ -22,6 +22,22 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={brandMeasure}
+    isBlog={false}
+    title="Brand Measure Project"
+    description={
+      <ul>
+        <li>Developed a brand measure project using cutting-edge technologies such as PySpeech, audio chunking, Symspell, and a superfast keyword search approach to analyze large volumes of audio data.</li>
+        <li>Utilized PySpeech to convert audio data to text and applied audio chunking to segment the text data for more efficient processing.</li>
+        <li>Implemented Symspell for spell correction to improve the accuracy of the text data and optimized keyword search using a superfast approach to quickly identify relevant brand-related terms.</li>
+        <li>Successfully measured brand sentiment and identified key trends in customer feedback, providing valuable insights to inform business decisions.</li>
+      </ul>
+    }
+    link="https://github.com/AmitRanjan235/Brand_Measures_project"
+  />
+</Col>
+        <Col md={4} className="project-card">
         <ProjectCard
           imgPath={chatify}
           isBlog={false}
