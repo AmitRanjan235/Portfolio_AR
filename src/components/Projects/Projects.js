@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.jpeg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import Brandmeasure from "../../Assets/Projects/Brandmeasure.png"
+import brand from "../../Assets/Projects/brand_measure.jpeg"
 
 function Projects() {
   return (
@@ -24,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
   <ProjectCard
-    imgPath={Brandmeasure}
+    imgPath={brand}
     isBlog={false}
     title="Brand Measure Project"
     description={
